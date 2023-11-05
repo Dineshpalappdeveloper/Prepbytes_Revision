@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Table by  Dinesh </h1>
+  
+    <form action="back.php" target="_self" method="get" autocomplete>
+       <label for="name">Enter Your Name</label>
+       <input type="text" name="name" id="name" required maxlength="15" placeholder="name">
+       <br> <br>
+
+       Gender:-
+       <label for="female">Female</label>
+       <input type="radio" name="gender" id="female" selected required value="female">
+       <label for="male">Male</label>
+       <input type="radio" name="gender" id="male" aria-selected="false" required value="male" >
+       <label for="other">Other</label>
+       <input type="radio" name="gender" id="other" required value="other">
+       <br>
+       <br>
+<label for="password">Enter your password </label>
+<input type="password" name="password" id="password" required maxlength="10" placeholder="">
+<br>
+       <br>
+       Enter Your Favorite Language:-
+<label for="html">HTML</label>
+<input type="checkbox" name="language" id="html" value="html">
+
+<label for="css">CSS</label>
+<input type="checkbox" name="language" id="css" value="css">
+
+<label for="java">JAVA</label>
+<input type="checkbox" name="language" id="java" value="java" checked>
+
+<label for="c">C</label>
+<input type="checkbox" name="language" id="c" value="c">
+
+<br><br>
+<label for="number">Enterb Your Number</label>
+<input type="number" name="number" id="number" required maxlength="10" placeholder="" >
+
+<br><br>
+
+
+<label for="state">Chose Your State</label>
+
+
+<select multiple size="3" name="state" id="state" >
+    <option value="Bihar" selected>Bihar </option>
+    <option value="up">Up</option>
+    <option value="mp">Mp</option>
+    <option value="mu">Mumbai</option>
+    <option value="de">Delhi</option>
+    <option value="ot">Other</option>
+</select>
+<br><br>
+<label for="date">Date of Birth</label>
+<input type="date" name="birth" id="date" required >
+
+<br><br>
+<label for="datetime">Date</label>
+<input type="datetime" name="time" id="datetime" required placeholder="dd/mm/yyyyy">
+
+<br><br>
+<label for="datetime1">Expected Date</label>
+<input type="datetime-local" name="expected date" id="datetime1" required placeholder="dd/mm/yyyyy">
+
+<br>
+<br>
+<label for="tel">Phone number</label>
+<input type="tel" name="telephone" id="tel" required maxlength="10">
+
+
+<br>
+<br>
+<label for="add">address</label>
+<textarea required cols="10" rows="1"  minlength="25" name="address" maxlength="200"></textarea>
+
+       <hr>
+
+<input type="submit" value="Submit now">   
+<input type="reset" value="reset">
+&nbsp; &nbsp;
+<a href="mailto:dineshkr748199@gmail.com">Email for  help</a>
+&nbsp; &nbsp;
+
+<a href="tel:+917761920507" >call for help</a>
+    </form>
+</body>
+</html>
